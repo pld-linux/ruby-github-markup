@@ -13,6 +13,7 @@ Source0:	http://download.github.com/%{gitauthor}-%{gitname}-v%{version}-1-g%{git
 # Source0-md5:	5060ed327b71036df28ab899cf4863b4
 #Patch0: %{name}-nogems.patch
 URL:		http://github.com/github/markup
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby
 BuildRequires:	ruby-modules
