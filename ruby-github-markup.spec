@@ -27,7 +27,7 @@ Code for interfacing with many different markup engines
 
 %prep
 %setup -q -n %{gitauthor}-%{gitname}-%{gitrev}
-#%patch0 -p1
+#%%patch0 -p1
 cp %{_datadir}/setup.rb .
 ruby setup.rb config \
 	--installdirs=std
